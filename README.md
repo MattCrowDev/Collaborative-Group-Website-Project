@@ -2,9 +2,8 @@ Students will adhere to the Collaborative Learning model exemplified in the atta
 On one of 3 Subjects:<br>
 New Store(Grocery/Clothes..etc)<br>
 New Company(Gaming/Oil...etc)<br> 
-New Non-Profit(like goodwill, salvation army...etc)<br>
+New Non-Profit(like goodwill, salvation army...etc)<br><br>
 The website will include: 
-<br>
 <br>
 -->An Approved Website Specification 
 <br>
