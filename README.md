@@ -1,6 +1,7 @@
 Students will adhere to the Collaborative Learning model exemplified in the attached PDF to create a 5+ page website.
 On one of 3 Subjects: New Store(Grocery/Clothes..etc), New Company(Gaming/Oil...etc) Or New Non-Profit(like goodwill, salvation army...etc)
 The website will include: 
+<br>
 -->An Approved Website Specification 
 -->Github repository will all members as collaborators
     ***Detailed Notes in pushes to repositories
