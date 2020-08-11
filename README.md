@@ -1,5 +1,8 @@
 Students will adhere to the Collaborative Learning model exemplified in the attached PDF to create a 5+ page website.
-On one of 3 Subjects: New Store(Grocery/Clothes..etc), New Company(Gaming/Oil...etc) Or New Non-Profit(like goodwill, salvation army...etc)
+On one of 3 Subjects:<br>
+New Store(Grocery/Clothes..etc)<br>
+New Company(Gaming/Oil...etc)<br> 
+New Non-Profit(like goodwill, salvation army...etc)<br>
 The website will include: 
 <br>
 <br>
