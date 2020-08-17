@@ -1,3 +1,43 @@
+/*HTML*/
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+/*Body*/
+body {
+    overflow-x: hidden;
+}
+/*H1*/
+h1 {
+    color: white;
+}
+/*Tables*/
+dl {
+    display: table;
+    border-collapse: collapse;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+dl div {
+    display: table-row;
+}
+dt, dd {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+    column-rule-style: dotted;
+}
+p{
+    column-rule-style: dotted;
+    widows: 3;
+    height: 99px;
+    overflow: hidden;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+}
 /*nav*/
 nav {
     text-align: center;
@@ -8,13 +48,24 @@ nav {
     width: 100%;
     z-index: 500;
     height: 2em;
-    display: inline-flex;
 }
 nav a{
     color: white;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
+}
+/*DIV*/
+div {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}   
+/*ul*/
+ul, li {
+    display: inline;
+    list-style-type: none;
+    color: white;
 }
 /*Button*/
 div button {
@@ -30,7 +81,7 @@ button {
     color: white;
 }
 .button2 {
-    top: 2200px;
+    top: 600px;
     color: white;
     background-attachment: transparent;
 }
@@ -63,14 +114,13 @@ button:hover {
     left: 725px;
     top: 625px;
 }
-.headsets {
-    width: 600px;
-    height: 300px;
-    position: absolute;
-    overflow-wrap: break-word;
-    overflow: hidden;
+.h1 {
+    transform:  translate(630px, -500px); 
+    color: white;
 }
-.games {
-    width: 1600px;
-    height: 50%
+/*ID's*/
+#arrow1 {
+    position: relative;
+    top: 200px; 
+    left: 100px;
 }
