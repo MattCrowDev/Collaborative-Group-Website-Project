@@ -1,0 +1,226 @@
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 60% 1fr 1fr 60%;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('../images/gear.jpeg');
+        background-size: cover;
+        width: 400px;
+        height: 900px;
+
+    }
+    .item1 div {
+        position: relative;
+        height: 100%;
+    }
+    .item1 #arrow1 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('../images/game_collage.jpg');
+        background-size: cover;
+    }
+    .item2 div img {
+        height: 100%;
+    }
+    .item2 #arrow2 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 button {
+        left: 39%;
+        top: 1900px;
+        background-color: white;
+        color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/');
+        background-size: cover;
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        top: 1200px;
+        left: 40%;
+    }
+    div.box {
+        top: 100px;
+        height: 100px;
+    }
+    #logo {
+        position: absolute;
+        left: 100px;
+        z-index: 5;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 601px) and (max-width: 1199px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 100vh 100vh 1fr;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('../images/gear.jpeg');
+    }
+    .item1 div {
+        position: relative;
+        height: 100%;
+    }
+    .item1 #arrow1 {
+        position: relative;
+        top: 600px; 
+        left: 400px;
+    }
+    .item2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('../images/game_collage.jpg');
+        background-position: 100px;
+    }
+    .item2 div {
+        height: 90%;
+    }
+    .item2 #arrow2 {
+        position: relative;
+        top: 600px; 
+        left: 400px;
+    }
+    .item2 button {
+        left: 43%;
+        top: 500px;
+        background-color: white;
+        color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/');
+        background-position: -400px;
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        top: 500px;
+        left: 40%;
+    }
+    div.box {
+        height: 100%;
+    }
+    #logo {
+        position: absolute;
+        left: 200px;
+        z-index: 5;
+    }
+    table {
+        position: relative;
+        left: 200px;
+    }
+}
+/*Desktop*/
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 60% 1fr 1fr 1fr;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url('../images/gear.jpeg');
+    }
+    .item1 div {
+        height: 100%;
+    }
+    .item1 #arrow1 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-image: url('../images/game_collage.jpg');
+    }
+    .item2 div img {
+        height: 100%;
+    }
+    .item2 #arrow2 {
+        position: relative;
+        top: 600px; 
+        left: 700px;
+    }
+    .item2 button {
+        left: 39%;
+        top: 500px;
+        background-color: white;
+        color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/');
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        left: 39%;
+        top: 545px;
+    }
+    div.boxs {
+        height: 100%;
+    }
+}
