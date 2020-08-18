@@ -1,3 +1,10 @@
+@font-face{
+    font-family: 'lc';
+    src: url('../fonts/VollkornBoldItalic-qZ3oq.ttf') format("truetype");
+}
+
+
+
 body{
     margin: 0px;
     font: 80%;
