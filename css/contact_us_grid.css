@@ -1,0 +1,111 @@
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 60%;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+    .item1 div {
+        position: relative;
+        height: 100%;
+    }
+    .item2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+/*Tablet*/
+@media only screen and (min-width: 601px) and (max-width: 1199px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .item1 div {
+        position: relative;
+        height: 100%;
+    }
+    .item2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .footer{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .item2 div {
+        height: 90%;
+    }
+}
+/*Desktop*/
+@media only screen and (min-width: 1200px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: -60% 1fr 1fr 1fr;
+    }
+    .nav {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .item1 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .item1 div {
+        height: 100%;
+    }
+    .item2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}

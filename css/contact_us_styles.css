@@ -1,0 +1,50 @@
+/*Body*/
+body {
+    background-color: darkgrey;
+}
+
+/*nav*/
+nav {
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    height: 2em;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul, li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+}
+/*h1*/
+h1{
+    transform: translateX(50px);
+}
+/*Form*/
+form{
+    border: 2px solid;
+    transform: translateY(150px);
+}
+form p{
+    transform: translateX(50px);
+}
+input {
+    transform: translateX(50px);
+}
+/*Footer*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    transform: translateY(400px);
+}
