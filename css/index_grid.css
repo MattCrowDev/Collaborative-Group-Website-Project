@@ -16,7 +16,7 @@
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
-        background-image: url('../images/friends_playing_vr.png');
+        background-image: url('../images/vr_playthrough.png');
         background-size: cover;
         width: 400px;
         height: 900px;
@@ -36,7 +36,7 @@
         grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
-        background-image: url('../images/game_collage.jpg');
+        background-image: url('../images/friends_playing_vr.jpg');
         background-size: cover;
     }
     .item2 div img {
@@ -50,6 +50,22 @@
     .item2 button {
         left: 39%;
         top: 1900px;
+        background-color: white;
+        color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/games_for_vr.jpeg');
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        left: 45%;
+        top: 500px;
         background-color: white;
         color: black;
     }
@@ -76,7 +92,7 @@
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
-        background-image: url('../images/home_page.png');
+        background-image: url('../images/vr_playthrough.png');
         background-position: -400px;
     }
     .item1 div {
@@ -93,7 +109,7 @@
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 4;
-        background-image: url('../images/supercharger.png');
+        background-image: url('../images/friends_playing_vr.jpg');
         background-position: 100px;
     }
     .item2 div {
@@ -110,6 +126,22 @@
         background-color: white;
         color: black;
     }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/games_for_vr.jpeg');
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        left: 45%;
+        top: 500px;
+        background-color: white;
+        color: black;
+    }
     div.shop {
         height: 100%;
     }
@@ -119,7 +151,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 60% 1fr 1fr 1fr;
-        grid-template-rows: 1fr 100vh 100vh;
+        grid-template-rows: 1fr 100vh 100vh 100vh;
     }
     .nav {
         grid-column-start: 1;
@@ -132,14 +164,18 @@
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
-        background-image: url('../images/playing_vr.png');
+        background-image: url('../images/vr_playthrough.png');
     }
     .item1 div {
         height: 100%;
     }
+    .item1 div img{
+        height: 100%;
+        width: 2300px;
+    }
     .item1 button {
-        left: 45%;
-        top: 500px;
+        left: 1%;
+        top: 400px;
         background-color: white;
         color: black;
     }
@@ -153,16 +189,38 @@
         grid-column-end: 5;
         grid-row-start: 3;
         grid-row-end: 4;
-        background-image: url('../images/game_collage.jpg');
+        background-image: url('../images/friends_playing_vr.jpg');
     }
     .item2 div img {
         height: 100%;
     }
-    .item2 button {
-        left: 45%;
-        top: 500px;
+    .item1 button {
+        left: 1%;
+        top: 400px;
         background-color: white;
         color: black;
+    }
+    .item3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        background-image: url('../images/team_1.jpg');
+    }
+    .item3 div img {
+        height: 100%;
+    }
+    .item3 button {
+        right: 5%;
+        top: 450px;
+        background-color: white;
+        color: black;
+    }
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
     }
     div.shop {
         height: 100%;
