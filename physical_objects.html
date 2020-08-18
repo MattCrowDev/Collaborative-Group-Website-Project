@@ -4,29 +4,49 @@
         <meta charset="UTF-8">
         <link rel="shortcut icon" type="image/x-icon" href="images/Vrtual_Logo.png" />
         <link rel="stylesheet" type="text/css" href="css/P.O.css">
+        <script src="js/P.O.js"></script>
     </head>
-    <body>
-        <div class = "header"> </div>
+    <body onscroll="shrink()">
+        <div class="back">
+            <img src="images/P.O background.jpg">
+        </div>
+        <div class = "header" id="head"> </div>
         <header>
-
+            <img onscroll="shrink()" id="imgg" src="images/Vrtual_Logo.png">
+            <div class="nav" id="navv">
+                <nav>
+                    <ul class="ul">
+                        <li class="li"><a href="index.html">Home -</a></li>
+                        <li class="li"><a href="shop.html">Shop -</a></li>
+                        <li class="li"><a href="about_us.html">About Us -</a></li>
+                        <li class="li"><a href="contact_us.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <div class="title"> 
             <h1>VR Headsets</h1>
         </div>
         <div class="obj1"> 
-            <button class="description">Description</button><br><br>
-            <button>Buy</button>
+            <img class ="img" src="images/mod1.png">
+            <h1>Pansonsite<br>Virtual Headset</h1>
+            <button class="description" onclick="D1()">Description</button><br><br>
+            <button class="buy">Buy</button>
         </div>
         <div class="obj2">
-            <button class="description">Description</button><br><br>
-            <button>Buy</button>
+            <img class="img" src="images/mod2.png">
+            <h1>Pimax<br>Virtual Headset</h1>
+            <button class="description" onclick="D2()">Description</button><br><br>
+            <button class="buy">Buy</button>
         </div>
         <div class="obj3">
-            <button class="description">Description</button><br><br>
-            <button>Buy</button>
+            <img class="img" src="images/mod3.png">
+            <h1>Qualcomm<br>Virtual Headset</h1>
+            <button class="description" onclick="D3()">Description</button><br><br>
+            <button class="buy">Buy</button>
         </div>
         <div class="close"> 
             <h3>VRtual 2020</h3>
         </div>
-    </body>
+    </body> 
 </html>
