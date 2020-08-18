@@ -1,3 +1,10 @@
+@font-face{
+    font-family: 'pe';
+    src: url('../fonts/VollkornBlackItalic-DO0L3.ttf') format("truetype");
+}
+
+
+
 body{
     margin: 0px;
     font: 80%;
@@ -20,7 +27,7 @@ body{
 }
 
 .box{
-    border: 1px solid #4444;
+    border: 0px solid #4444;
     padding: 80px;
     font-size: 150%;
 }
@@ -38,6 +45,11 @@ body{
 .c{
     grid-column: 2/23;
     grid-row: 10/14;
+    background-image: url('../images/HTC.jpg');
+ background-repeat: no-repeat;
+ margin-left: 350px;
+ margin-right: 200px;
+   
 }
 
 .d{
@@ -47,6 +59,11 @@ body{
 .e{
     grid-column: 2/23;
     grid-row: 17/21;
+    background-image: url('../images/pc.jpg');
+    background-repeat: no-repeat;
+    margin-left: 300px;
+ margin-right: 200px;
+    
 }
 .f{
     grid-column: 2/23;
@@ -55,6 +72,10 @@ body{
 .g{
     grid-column: 2/23;
     grid-row: 24/28;
+    background-image: url('../images/marge.jpg');
+    background-repeat: no-repeat;
+    margin-left: 370px;
+ margin-right: 200px;
 }
 .h{
     grid-column: 2/23;
